@@ -41,7 +41,7 @@ public class C206_CaseStudyTest {
 
 	@Test
 	public void c206_test() {
-		  
+		public static void addTransaction(ArrayList<Transaction> TransactionList, Transaction t) {
 			    // Item list is not null, so that can add a new item
 			    assertNotNull("Test if there is valid Transaction arraylist to add to", TransactionList);
 			    
